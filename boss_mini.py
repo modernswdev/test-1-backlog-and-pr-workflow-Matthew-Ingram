@@ -35,6 +35,7 @@ while p_hp > 0 and b_hp > 0:
     p_hp -= 10
     if p_hp <= 0:
       print("Defeat!")
+      break
   else:
     print("Victory!")
     break
